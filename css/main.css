@@ -6,26 +6,6 @@
 
 
 /* ------------------------------------------------------------------------------
-	Slider Images URL
--------------------------------------------------------------------------------*/
-
-#first-slider .slide1 {
-    background-image: url('../images/gallery/hero2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-#first-slider .slide2 {
-  background-image: url('../images/slides/2.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#first-slider .slide3 {
-  background-image: url('../images/slides/3.jpg');
-      background-size: cover;
-    background-repeat: no-repeat;
-}
-
-/* ------------------------------------------------------------------------------
 	Typography
 -------------------------------------------------------------------------------*/
 

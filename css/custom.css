@@ -15,6 +15,23 @@ body {
   color: #f9a492;
 }
 
+
+@media (min-width: 1024px) {
+  #first-slider .slide1 {
+    background: url('../images/gallery/hero.jpg') repeat-x;
+  }
+}
+
+@media (max-width: 1024px) {
+  #first-slider .slide1 {      
+    background-image: url('../images/gallery/hero3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
 @media screen and (min-width: 1024px) {
 .navigation {
   margin-top: 20px;
