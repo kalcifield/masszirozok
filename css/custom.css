@@ -15,10 +15,19 @@ body {
   color: #f9a492;
 }
 
+.hero-text {
+  font-family: 'Fredericka the Great', cursive;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px #f5a392;
+
+
+}
 
 @media (min-width: 1024px) {
   #first-slider .slide1 {
-    background: url('../images/gallery/hero.jpg') repeat-x;
+    background: url('../images/gallery/hero.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 
@@ -26,7 +35,6 @@ body {
   #first-slider .slide1 {      
     background-image: url('../images/gallery/hero3.jpg');
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -73,7 +81,6 @@ body {
 .img-card-about {
   overflow: hidden;
   position: relative;
-  max-width: 30vw;
   padding: 25px;
   margin: auto;
 }
@@ -87,11 +94,13 @@ body {
 }
 
 .about-text {
-  max-width: 30vw;
-  padding-left: 25px;
-  padding-right: 25px;
+  text-align: justify;
+  text-justify: inter-word;
   margin: auto;
-  color: #f9a492;
+}
+
+.about-text p {
+  font-size: 18px;
 }
 
 .phone-email-contact a {
@@ -112,6 +121,10 @@ a.contactbtn:hover {
 .data-section {
   display: flex;
   justify-content: center;
+}
+
+.massage-type {
+  margin: auto;
 }
 
 /* Extra small devices (767px and down) */
@@ -239,9 +252,6 @@ a.contactbtn:hover {
   margin: 0;
 }
 
-.voucher-card p {
-
-}
 .voucher-header {
   background-color: #f9a291;
   padding: 0;
@@ -258,4 +268,88 @@ a.contactbtn:hover {
 
 .massage-type-card h5{
   padding: 0 1.5em 0 1.5em;
+}
+
+.welcome-section {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-welcome {
+  text-align: center;
+  border-radius: 4px;
+  border: 2px solid white;
+  background-color: #f5a49247;
+  color: white;
+  display: inline-block;
+  margin: 0 0.25em;
+  overflow: hidden;
+  padding: 18px 60px 18px 16px;
+  position: relative;
+  text-decoration: none;
+  line-height: 1;
+}
+.btn-welcome:focus {
+  background-color: #f5a49247;
+}
+.btn-welcome:hover {
+  background-color: transparent;
+}
+.btn-welcome .btn-content {
+  font-size: 1em;
+  line-height: 1.2;
+  padding: 0 26px;
+  position: relative;
+  right: 0;
+  transition: right 300ms ease;
+  display: block;
+  text-align: left;
+}
+.btn-welcome .icon {
+  border-left: 1px solid #f9a492;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  transition: all 300ms ease;
+  transform: translateY(-50%);
+  width: 58px;
+  height: 70%;
+}
+.btn-welcome .icon i {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.btn-welcome:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #f9a492;
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+.btn-welcome:hover .btn-content {
+  right: 100%;
+}
+.btn-welcome:hover .icon {
+  border-left: 0;
+  font-size: 1.8em;
+  width: 100%;
+}
+.btn-welcome:hover:after {
+  opacity: 0.2;
+}
+.btn-welcome.btn-alt-color {
+  border-color: salmon;
+  color: salmon;
+}
+.btn-welcome.btn-alt-color .icon {
+  border-left-color: salmon;
+}
+.btn-welcome.btn-alt-color:after {
+  background-color: salmon;
 }

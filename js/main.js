@@ -22,6 +22,13 @@ $(document).ready(function() {
 		directionNav: false,
 	});
 
+	// Scroll down
+	$(".btn-welcome").click(function() {
+		$('html,body').animate({
+			scrollTop: $("#reservation-block").offset().top -100},
+			'slow');
+	});
+
 	// Page Scroll
 	var sections = $('section')
 		nav = $('nav[role="navigation"]');
