@@ -1,0 +1,46 @@
+
+.logo-tag {
+  display: inline;
+  font-size: 25px;
+}
+
+.araink-berleteink {
+  padding-top: 134px;
+}
+.card-row {
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 767px) {
+  .card-row {
+    display: flex;
+  }
+}
+
+.masszazs-title {
+  background-color: #fbcc72;
+  border-style: solid;
+  text-align: center;
+}
+.berlet {
+  text-align: center;
+  font-weight: bold;
+}
+.masszazs-card {
+  background-color: white;
+  border-style: solid;
+  margin-bottom: 16px;
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+}
+
+.img-container2 {
+  position: relative;
+  overflow: hidden;
+  border-bottom: solid;
+  border-top: solid;
+}

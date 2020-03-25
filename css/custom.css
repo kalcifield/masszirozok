@@ -33,7 +33,7 @@ body {
 
 @media (max-width: 1024px) {
   #first-slider .slide1 {
-    background-image: url('../images/gallery/hero3.jpg');
+    background-image: url('../images/gallery/hero-mobile.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -135,7 +135,7 @@ a.contactbtn:hover {
     height: 50vw;
   }
   .img-card-about {
-    max-width: 70vw;
+
   }
   .about-text {
     max-width: 70vw;

@@ -11,11 +11,18 @@
 
 <head>
   <!-- https://stackoverflow.com/questions/1092329/what-are-the-important-meta-tags-i-must-put-in-my-website-->
-  <meta charset="utf-8">
-  <meta name="description" content="">
-  <meta name="masszirozok" content="masszirozok">
+  <title>Masszázs a belváros szívében - masszirozok.com</title>
+  <meta charset="utf-8"><!-- html5 version of http-equiv="Content-Type"... -->
+  <meta name="description" content="Svédmasszázs, kismama masszázs, lávaköves masszázs, talpmasszázs a nyugati közelében, a Westendnél, a Szent István krt 19-ben.">
+  <link rel="canonical" href="https://www.masszirozok.com" />
+
+  <meta property="og:locale" content="hu_HU" />
+  <meta property="og:url" content="https://www.masszirozok.com">
+  <meta property="og:description" content="Svédmasszázs, kismama masszázs, lávaköves masszázs, talpmasszázs a nyugati közelében, a Westendnél, a Szent István krt 19-ben.">
+  <meta property="og:title" content="Masszázs a belváros szívében - masszirozok.com">
+  <meta property="og:site_name" content="masszirozok.com">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Masszázs a belváros szívében</title>
+
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/flexslider.css">
   <link rel="stylesheet" href="css/jquery.fancybox.css">
@@ -34,7 +41,9 @@
 
   <link rel="shortcut icon" type="image/x-icon" href="images/custom/favicon.png">
 
-  <link href="css/custom.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/berletek.css">
+
 </head>
 
 <body>
@@ -42,84 +51,295 @@
   <section class="banner" role="banner" id="home">
     <header id="header">
       <div class="header-content clearfix">
-        <a class="logo" href="#home"> <img src="images/custom/favicon.png"
-          style="width: 100px; margin: -15px; margin-right:2px; position: relative;">
-          masszirozok.com
+        <a class="logo" href="index.html"> <img src="images/custom/favicon.png"
+          style="width: 100px; margin: -15px; margin-right:1px; position: relative;">
+          <div class="logo-tag">
+            masszirozok.com
+          </div>
         </a>
-            <nav class="navigation" role="navigation">
+        <nav class="navigation" role="navigation">
           <ul class="primary-nav">
-            <li><a href="#home">Főoldal</a></li>
-            <li><a href="#about-us">Rólunk</a></li>
-            <li><a href="#prices">Áraink</a></li>
-            <li><a href="#gallery">Galéria</a></li>
-            <li><a href="#testimonials">Ajánlásaink</a></li>
-            <li><a href="#contact">Elérhetőségeink</a></li>
+            <li><a href="index.html">Főoldal</a></li>
+            <li><a href="index.html#about-us">Rólunk</a></li>
+            <li><a href="berletek.html">Áraink</a></li>
+            <li><a href="index.html#gallery">Galéria</a></li>
+            <li><a href="index.html#testimonials">Ajánlásaink</a></li>
+            <li><a href="index.html#contact">Elérhetőségeink</a></li>
           </ul>
         </nav>
         <a href="#" class="nav-toggle">Menu<span></span></a></div>
+      </div>
     </header>
   </section>
   <!-- banner text -->
 
-  <section id="prices">
-    <div class="container about-text">
-      <div class="section-header">
-        <h3>Áraink</h3>
+  <!-- Áraink -->
+  <section id="prices" class="araink-berleteink">
+
+    <div class="section-header img-container2">
+      <img class="background-image" src="images/custom/pattern.png">
+      <h3>Áraink</h3>
+    </div>
+    <div class="container" style="margin-top:30px;">
+      <div class="row card-row">
+          <!-- Svéd -->
+        <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="masszazs-title">
+              <h4>Svédmasszázs</h4>
+            </div>
+            <div class="masszazs-card">
+              <table style="width:100%">
+                <tr>
+                  <td align="left">30 perc:</td>
+                  <td align="right">3500,-</td>
+                </tr>
+                <tr>
+                  <td align="left">60 perc:</td>
+                  <td align="right">5500,-</td>
+                </tr>
+                <tr>
+                  <td align="left">90 perc:</td>
+                  <td align="right">6500,-</td>
+                </tr>
+              </table>
+              <div class="berlet">
+                <p>Bérlet ár</p>
+                <table style="width:100%">
+                  <tr>
+                    <td align="left">5+1 alkalom (60p)</td>
+                    <td align="right">27 500.-</td>
+                  </tr>
+                  <tr>
+                    <td align="left">10+1 alkalom (60p)</td>
+                    <td align="right">55 000.-</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+        </div>
+
+          <!-- Mélyszöveti -->
+        <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="masszazs-title">
+              <h4>Mélyszöveti masszázs</h4>
+            </div>
+            <div class="masszazs-card">
+              <table style="width:100%">
+                <tr>
+                  <td align="left">30 perc:</td>
+                  <td align="right">4500,-</td>
+                </tr>
+                <tr>
+                  <td align="left">60 perc:</td>
+                  <td align="right">6500,-</td>
+                </tr>
+                <tr>
+                  <td align="left">90 perc:</td>
+                  <td align="right">8000,-</td>
+                </tr>
+              </table>
+              <div class="berlet">
+                <p>Bérlet ár</p>
+                <table style="width:100%">
+                  <tr>
+                    <td align="left">5+1 alkalom (30)</td>
+                    <td align="right">22 500.-</td>
+                  </tr>
+                  <tr>
+                    <td align="left">10+1 alkalom (30p)</td>
+                    <td align="right">45 000.-</td>
+                  </tr>
+                  <tr>
+                    <td align="left">5+1 alkalom (60p)</td>
+                    <td align="right">32 500.-</td>
+                  </tr>
+                  <tr>
+                    <td align="left">10+1 alkalom (60p)</td>
+                    <td align="right">65 000.-</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+        </div>
+
+        <!--Nyirok -->
+        <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="masszazs-title">
+              <h4>Nyirokmasszázs</h4>
+            </div>
+            <div class="masszazs-card">
+              <table style="width:100%">
+                <tr>
+                  <td align="left">30 perc:</td>
+                  <td align="right">3500,-</td>
+                </tr>
+                <tr>
+                  <td align="left">60 perc:</td>
+                  <td align="right">5000,-</td>
+                </tr>
+                <tr>
+                  <td align="left">90 perc:</td>
+                  <td align="right">7000,-</td>
+                </tr>
+              </table>
+              <div class="berlet">
+                <p>Bérlet ár</p>
+                <table style="width:100%">
+                  <tr>
+                    <td align="left">5+1 alkalom (60p)</td>
+                    <td align="right">25 000.-</td>
+                  </tr>
+                  <tr>
+                    <td align="left">10+1 alkalom (60p)</td>
+                    <td align="right">50 000.-</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+        </div>
       </div>
-      <div class="row">
+      <div class="row card-row">
+        <!-- Kismama -->
         <div class="col-lg-3 col-md-6 col-xs-12">
-            <h4>Svédmasszázs</h4>
-            <p>30 perc: 3500,-</p>
-            <p>60 perc: 5000,-</p>
-            <p>90 perc: 6000,-</p>
+            <div class="masszazs-title">
+              <h4>Kismama masszázs</h4>
+            </div>
+            <div class="masszazs-card">
+              <table style="width:100%">
+                <tr>
+                  <td align="left">30 perc:</td>
+                  <td align="right">3500,-</td>
+                </tr>
+                <tr>
+                  <td align="left">60 perc:</td>
+                  <td align="right">5500,-</td>
+                </tr>
+              </table>
+            </div>
         </div>
+
+        <!-- Cellulit -->
         <div class="col-lg-3 col-md-6 col-xs-12">
-          <h4>Mélyszöveti masszázs</h4>
-          <p>30 perc: 4500,-</p>
-          <p>60 perc: 6000,-</p>
-          <p>90 perc: 7500,-</p>
+            <div class="masszazs-title">
+              <h4>Cellulitmasszázs</h4>
+            </div>
+            <div class="masszazs-card">
+              <table style="width:100%">
+                <tr>
+                  <td align="left">30 perc:</td>
+                  <td align="right">4500,-</td>
+                </tr>
+              </table>
+              <div class="berlet">
+                <p>Bérlet ár</p>
+                <table style="width:100%">
+                  <tr>
+                    <td align="left">5+1 alkalom (60p)</td>
+                    <td align="right">22 500.-</td>
+                  </tr>
+                  <tr>
+                    <td align="left">10+1 alkalom (60p)</td>
+                    <td align="right">45 000.-</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
         </div>
+
+        <!-- Aromaolajos -->
         <div class="col-lg-3 col-md-6 col-xs-12">
-          <h4>Nyirokmasszázs</h4>
-          <p>30 perc: 3500,-</p>
-          <p>60 perc: 4500,-</p>
-          <p>90 perc: 6500,-</p>
-        </div>
-        <div class="col-lg-3 col-md-6 col-xs-12">
-          <h4>Kismama masszázs</h4>
-          <p>30 perc: 3500,-</p>
-          <p>60 perc: 5000,-</p>
-          <p>90 perc: 6000,-</p>
-        </div>
-  
-        <div class="col-lg-3 col-md-6 col-xs-12">
-          <h4>Lomi-lomi masszázs</h4>
-          <p>60 perc: 8000,-</p>
-          <p>90 perc: 12 000,-</p>
-        </div>
-        <div class="col-lg-3 col-md-6 col-xs-12">
-          <h4>Talpmasszázs</h4>
-          <p>30 perc: 3500,-</p>
-          <p>60 perc: 5000,-</p>
-        </div>
-        <div class="col-lg-3 col-md-6 col-xs-12">
-          <h4>Páros masszázs</h4>
-          <p>30 perc: 10 000,-</p>
-          <p>60 perc: 12 500,-</p>
-        </div>
-  
-        <div class="col-lg-3 col-md-6 col-xs-12">
-          <h4>Cellulit masszázs</h4>
-          <p>30 perc: 4500,-</p>
-        </div>
-        <div style="float: none;" class="col-lg-3 col-md-6 col-xs-12">
-          <h4>Aromaolajos svédmasszázs</h4>
-          <p>60 perc: 4500,-</p>
+            <div class="masszazs-title">
+              <h4>Aromaolajos svédmasszázs</h4>
+            </div>
+            <div class="masszazs-card">
+              <table style="width:100%">
+                <tr>
+                  <td align="left">60 perc:</td>
+                  <td align="right">5000,-</td>
+                </tr>
+                <tr>
+                  <td align="left">90 perc:</td>
+                  <td align="right">7000,-</td>
+                </tr>
+              </table>
+            </div>
         </div>
       </div>
+
+      <div class="row card-row">
+        <!-- Lomi lomi -->
+        <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="masszazs-title">
+              <h4>Lomi-lomi masszázs</h4>
+            </div>
+            <div class="masszazs-card">
+              <table style="width:100%">
+                <tr>
+                  <td align="left">60 perc:</td>
+                  <td align="right">8500,-</td>
+                </tr>
+                <tr>
+                  <td align="left">90 perc:</td>
+                  <td align="right">12 500,-</td>
+                </tr>
+              </table>
+            </div>
+        </div>
+
+        <!-- Páros -->
+        <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="masszazs-title">
+              <h4>Talpmasszázs</h4>
+            </div>
+            <div class="masszazs-card">
+              <table style="width:100%">
+                <tr>
+                  <td align="left">30 perc:</td>
+                  <td align="right">3 500,-</td>
+                </tr>
+                <tr>
+                  <td align="left">60 perc:</td>
+                  <td align="right">5 500,-</td>
+                </tr>
+              </table>
+              <div class="berlet">
+                <p>Bérlet ár</p>
+                <table style="width:100%">
+                  <tr>
+                    <td align="left">5+1 alkalom (60p)</td>
+                    <td align="right">27 500.-</td>
+                  </tr>
+                  <tr>
+                    <td align="left">10+1 alkalom (60p)</td>
+                    <td align="right">55 000.-</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+        </div>
+
+        <!-- Talp -->
+        <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="masszazs-title">
+              <h4>Páros masszázs</h4>
+            </div>
+            <div class="masszazs-card">
+              <table style="width:100%">
+                <tr>
+                  <td align="left">60 perc:</td>
+                  <td align="right">11 000,-</td>
+                </tr>
+                <tr>
+                  <td align="left">90 perc:</td>
+                  <td align="right">14 000,-</td>
+                </tr>
+              </table>
+            </div>
+        </div>
+      </div>
+
       <br>
-      <p>Áraink Forintban értendők, készpénzes fizetés lehetséges csak. </p>
-    <!-- Bővebben árainkről <a href="/prices.html">itt</a> olvashatsz. -->
+      <p> <b>Áraink Forintban értendők, készpénzes fizetés lehetséges csak.</b> </p>
     </div>
   </section>
 
@@ -127,24 +347,11 @@
   <footer class="footer">
     <div class="container-fluid">
       <div id="map-row" class="row">
-        <div class="col-xs-12">
-          <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=1055.+Budapest,+Szent+Istv%C3%A1n+k%C3%B6r%C3%BAt+19.&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
-        </div>
         <div id="map-overlay" class="col-xs-5" style="">
-          © 2019 Masszirozok.hu All Rights Reserved.
+          © 2019 Masszirozok.com All Rights Reserved.
         </div>
       </div>
     </div>
-
-    <div id="credits" style="visibility: hidden">
-      <div>Icons made by <a href="https://www.freepik.com/?__hstc=57440181.9d562beeff1860093950e54d8e3026a8.1556122664115.1556122664115.1556127754906.2&__hssc=57440181.3.1556127754906&__hsfp=2841662689" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"
-          title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC
-            3.0 BY</a></div>
-      <a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by valeria_aksakova -
-            www.freepik.com</a>
-      <br/><a target="_blank" href="https://webthemez.com/tag/free" target="_blank">Free Templates</a> by WebThemez.com
-    </div>
-
   </footer>
   <!-- Footer section -->
   <!-- JS FILES -->
@@ -152,10 +359,7 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.flexslider-min.js"></script>
   <script src="js/jquery.fancybox.pack.js"></script>
-  <script src="js/retina.min.js"></script>
-  <script src="js/modernizr.js"></script>
   <script src="js/main.js"></script>
-  <script type="text/javascript" src="js/jquery.contact.js"></script>
 </body>
 
 </html>
